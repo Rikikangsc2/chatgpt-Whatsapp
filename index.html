@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AzzBot</title>
+  <style>
+    /* CSS Styling */
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #333;
+    }
+
+    p {
+      font-size: 24px;
+      color: #666;
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      border-radius: 50px;
+      background-color: #3498db;
+      color: #fff;
+      padding: 20px 40px;
+      font-size: 24px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    /* JavaScript Animation */
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes color-change {
+      0% {
+        background-color: #3498db;
+      }
+      25% {
+        background-color: #2ecc71;
+      }
+      50% {
+        background-color: #f1c40f;
+      }
+      75% {
+        background-color: #e67e22;
+      }
+      100% {
+        background-color: #e74c3c;
+      }
+    }
+
+    .animated-button {
+      animation: rotate 2s linear infinite;
+      animation-direction: alternate;
+    }
+
+    .animated-button:hover {
+      animation-name: color-change;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AzzBot</h1>
+    <p>Adalah bot WhatsApp AI dan search engine</p>
+    <a href="https://wa.me/6283865324123" class="button animated-button">Hubungi AzzBot</a>
+  </div>
+
+  <script>
+    // JavaScript code (if needed)
+  </script>
+</body>
+</html>
